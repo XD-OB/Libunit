@@ -1,0 +1,9 @@
+language: c
+
+sudo: required
+
+git:
+    quiet: true
+
+script:
+    make test
